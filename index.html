@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Tareas </title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <h1>Mis Tareas 📝 </h1>
+        
+        <div class="tarjeta">
+            <div class="insertar-datos">
+                <input type="text" id="tarea" placeholder="añadir tarea">
+                <button id="botonAnadir" onclick="addTask()">Añadir</button>
+            </div>
+
+            <ul id="listaTareas">
+    <li>
+        <span>De mentira</span>
+        <button class="boton-borrar">❌</button>
+    </li>
+    <li>
+        <span>Pollo</span>
+        <button class="boton-borrar">❌</button>
+    </li>
+    <li>
+        <span>Daril</span>
+        <button class="boton-borrar">❌</button>
+    </li>
+</ul>
+        </div>
+    </div>
+
+    <script src="JS/java.js"></script>
+</body>
+</html>

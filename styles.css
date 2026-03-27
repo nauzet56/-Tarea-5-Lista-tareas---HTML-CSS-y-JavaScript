@@ -1,0 +1,67 @@
+body {
+    background-color: #a3a2a2;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.tarjeta {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h1 { text-align: center; }
+
+.insertar-datos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#tarea {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #5b89df;
+    border-radius: 8px;
+    outline: none;
+}
+
+#botonAnadir {
+    background-color: #6b8dff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+ul { 
+    padding: 0; 
+    list-style: none; 
+}
+
+li {
+    background-color: #f8fafc;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-borrar {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
